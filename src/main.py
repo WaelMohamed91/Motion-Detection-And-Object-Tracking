@@ -1,8 +1,12 @@
-from src.ObjectsStateHandler import ObjectsStateHandler
-from src.lib.lib import INPUT_VIDEO_LOC
-from src.lib.lib import SAVING_OUTPUT_VIDEO_LOC
-import cv2
 
+sys.path.append('/content/Motion-Detection-And-Object-Tracking/src')
+sys.path.append ('/content/Motion-Detection-And-Object-Tracking/src/lib')
+
+
+from ObjectsStateHandler import ObjectsStateHandler
+from lib import INPUT_VIDEO_LOC
+from lib import SAVING_OUTPUT_VIDEO_LOC
+import cv2
 
 # get video mode from user
 # if 1 is web cam
