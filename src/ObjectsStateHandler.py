@@ -1,7 +1,8 @@
 import sys 
-sys.path.append ('/content/Motion-Detection-And-Object-Tracking/src')
+sys.path.append ('/content/Motion-Detection-And-Object-Tracking/src/')
+sys.path.append ('..')
 
-from src.FallingObject import FallingObject
+from FallingObject import FallingObject
 from random import randint
 
 
