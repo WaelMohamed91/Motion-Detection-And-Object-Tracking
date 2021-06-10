@@ -1,4 +1,7 @@
-from src.lib.lib import FALLING_OBJECT_IMAGES_PATH
+import sys 
+sys.path.append ('/content/Motion-Detection-And-Object-Tracking/src/lib')
+sys.path.append ('..')
+from lib import FALLING_OBJECT_IMAGES_PATH
 from random import randint
 import cv2
 
